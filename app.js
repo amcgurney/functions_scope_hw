@@ -21,5 +21,10 @@ function isAVowel(letter) {
 }
 console.log(isAVowel("a"));
 
-//
+// two lengths
 
+function getTwoLengths(Hank, Hippopopalous) {
+    let arr1 = [Hank.length, Hippopopalous.length]
+        return arr1
+    }
+console.log(getTwoLengths("Hank", "Hippopopalous"));
