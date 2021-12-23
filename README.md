@@ -39,7 +39,7 @@ The commit message should read: <br>
 Write a function `calculateCube` that takes a single number and prints the volume of a cube made from that number.
 
 ```javascript
-console.log(calculateCube(5));
+//console.log(calculateCube(5));
 ```
 
 > => 125
@@ -54,7 +54,7 @@ The commit message should read: <br>
 Write a function `isAVowel` that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
 
 ```javascript
-console.log(isAVowel("a"));
+//console.log(isAVowel("a"));
 ```
 
 > => true
@@ -70,7 +70,7 @@ The commit message should read: <br>
 Write a function `getTwoLengths` that accepts two parameters (strings). The function should return an _array_ of numbers where each number is the length of the corresponding string.
 
 ```javascript
-console.log(getTwoLengths("Hank", "Hippopopalous"));
+//console.log(getTwoLengths("Hank", "Hippopopalous"));
 ```
 
 > => [4, 13]
@@ -84,6 +84,8 @@ The commit message should read: <br>
 ## 5. Sum Array
 Write a function `sumArray` that takes an **array** as an argument.
 The array should contain numbers. The function should return the sum of the numbers in the array. **Do not use `.reduce()`**.
+
+
 
 Expected result:
 ```javascript

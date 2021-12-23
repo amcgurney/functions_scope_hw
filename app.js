@@ -6,10 +6,16 @@
 
 function calculateCube(num) {
     return num*num*num}
-
-console.log(calculateCube(5));
+//console.log(calculateCube(5));
 
 // is a vowel
+
+//function isAVowel(letter){
+  //  let vowel = ["a", "e", "i", "o", "u"]
+    //for (let i = 0; i < vowel.length; i++){
+
+    //}
+//}
 
 function isAVowel(letter) {
     let vowel = ["a", "e", "i", "o", "u"]
@@ -17,9 +23,10 @@ function isAVowel(letter) {
             if (vowel[i] === letter) {
                 return true
             }
-    }
-}
-console.log(isAVowel("a"));
+        }
+     }
+
+//console.log(isAVowel("a"));
 
 // two lengths
 
@@ -27,4 +34,12 @@ function getTwoLengths(Hank, Hippopopalous) {
     let arr1 = [Hank.length, Hippopopalous.length]
         return arr1
     }
-console.log(getTwoLengths("Hank", "Hippopopalous"));
+//console.log(getTwoLengths("Hank", "Hippopopalous"));
+
+
+function sumArray(num) {
+let var = 0
+for (let i = 0; i < sumArray.length; i++) {
+        console.log(sumArray([1, 2, 3, 4, 5, 6]));
+    }
+}
